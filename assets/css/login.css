@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  /* Container Design */
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #fdd835;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffca28;
+  }
+  
+  /* Toggle Links */
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .toggle {
+    color: #fdd835;
+    cursor: pointer;
+  }
+  
+  .toggle:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    
+  }

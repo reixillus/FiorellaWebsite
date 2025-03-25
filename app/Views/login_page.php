@@ -5,12 +5,17 @@ use CodeIgniter\Database\BaseUtils;
 
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>FiorellaWebsite - Home</title>
+<title>FiorellaWebsite - LOGIN</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
-<div class="login-container">
-    <img src="images/FloraLogo.png" alt="FloraLogo.png" class="logo" />
+<section>
+    <div class="uk-background-cover d-flex flex-column justify-content-start align-items-start" data-src="<?= base_url('assets/images/headerimage.png')?>" style="height: 700px; object-fit: fill; padding-left: 20px; padding-right: 20px;" uk-img>
+    <div style="max-width: 60%; margin: auto;">
+      <h1 style="font-family: DynaPuff; font-size: 100px; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432); padding-left: 8%; padding-top: 20px;">LOGIN</h1>
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1@s uk-child-width-1-2@m uk-margin" uk-grid style="margin: auto;">
+        <div class="login-container">
+    <img src="images/ROADWISE LOGO.png" alt="RoadWise Logo" class="logo" />
     <h1>Welcome Back!</h1>
     <?php if (session()->getFlashdata('error')): ?>
     <p style="color: red;"><?= session()->get('error'); ?></p>
@@ -37,5 +42,10 @@ use CodeIgniter\Database\BaseUtils;
       <p>Already have an account? <span class="toggle" onclick="showLogin()">Login Here</span></p>
     </form>
   </div>
+        </div>
+    </div>
+  </section>
+
+
 
 <?= $this->endSection('content') ?>
