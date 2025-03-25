@@ -25,7 +25,7 @@
                     Reach out and say hello...</h4>
                     <div class="uk-comment-body">
                       <p style = "font-family: Open Sans;">
-                        The Official Bluey Merchandise doesn't accept unsolicited materials or ideas but if you think we'd make a good match please just send us an email and introduce yourself (not your project).
+                        If you think we'd make a good match please just send us an email and introduce yourself (not your project).
                       </p>
                     </div>
                 </div>
