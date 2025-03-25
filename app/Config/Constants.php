@@ -78,7 +78,7 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8);       // database 
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
-defined('BASEURL') || define('BASEURL', 'http://localhost/TX32-24-GRP5-BLUEY');
+defined('BASEURL') || define('BASEURL', 'http://localhost/FiorellaWebsite');
 defined('CSS')     || define('CSS', BASEURL . '/assets/css');
 defined('JS')      || define('JS', BASEURL . '/assets/js');
 defined('IMG')     || define('IMG', BASEURL . '/assets/images');
