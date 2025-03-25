@@ -2,10 +2,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center mb-3">
-          <a class="navbar-brand" href="#"><img src="<?= base_url('assets/images/logo.png')?>" class="image" style="width: 100px;"></a>
+          <a class="navbar-brand" href="#"><img src="<?= base_url('assets/images/FloraLogo.png')?>" class="image" style="width: 100px;"></a>
         </div>
         <div class="col-md-4 text-center mb-3">
-          <p>The Official Legit Bluey Store <br> est. 2024</p>
+          <p>The Official Flora and Fauna <br> est. 2025</p>
           <p>Recto, Manila, Philippines</p>
         </div>
         <div class="col-md-4 text-center mb-3">

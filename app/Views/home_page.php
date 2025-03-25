@@ -5,19 +5,20 @@ use CodeIgniter\Database\BaseUtils;
 
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>The Bluey Shop - Home</title>
+<title>FiorellaWebsite - Home</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
 
   <section>
-    <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/headerimage2.png')?>" style="height: 700px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; font-size: 100px; font-weight: bold; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">The Bluey Shop</h1>
-      <a href="<?= base_url('/catalog'); ?>" style="color: rgb(47, 62, 70); text-decoration: none;">
-        <button class="zoom genbutton mt-3">Go To Catalog</button>
+    <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/HomeBackGround.png')?>" style="height: 700px; object-fit: fill;" uk-img>
+      <h1 style="font-family: DynaPuff; font-size: 100px; font-weight: bold; color:rgb(126, 209, 94); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">FLORA AND FAUNA</h1>
+      <a href="<?= base_url('/catalog'); ?>" style="color: rgb(221, 225, 228); text-decoration: none;">
+        <button class="zoom genbutton mt-3" style="background-color: rgb(62, 126, 36); color: white;">PLAY NOW!</button>
       </a>
     </div>
 
+    <h1 style="font-family: DynaPuff; text-align: center; color: rgb(43, 44, 65); font-weight: bold; margin-bottom: 20px;">TRAILER</h1>
     <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 60%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
         <img class="card-img" src="<?= base_url('assets/images/blueyfamily.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">

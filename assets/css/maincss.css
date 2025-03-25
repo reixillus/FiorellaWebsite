@@ -1,14 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(194, 227, 254);
+    background-color: rgb(64, 255, 166);
 }
 
 a{
     text-decoration: none;
 }
 .container-fluid{
-    background-color: rgb(43,44,65);
+    background-color: rgba(0, 75, 24, 0.966);
 }
 
 .navbar{
@@ -21,7 +21,7 @@ a{
 }
 
 .nav-link{
-  color: rgb(210,235,255);
+  color: rgb(128, 240, 174);
   font-size: 20px;
 }
 
