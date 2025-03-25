@@ -28,4 +28,14 @@ class Home extends BaseController
     {
         return view('cart_page');
     }
+
+    public function login(): string
+    {
+        return view('login_page');
+    }
+
+    public function signup(): string
+    {
+        return view('signup_page');
+    }
 }
