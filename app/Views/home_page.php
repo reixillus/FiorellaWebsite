@@ -121,11 +121,26 @@ use CodeIgniter\Database\BaseUtils;
   <h1 style="font-family: DynaPuff; text-align: center; color: rgb(62, 128, 36); font-weight: bold; margin-bottom: 10px; margin-top: 50px;">CHARACTER</h1>
 
   <section>
-    <div class="uk-background-cover d-flex flex-column justify-content-end align-items-center" data-src="<?= base_url('assets/images/trio4.png')?>" style="max-width: 50%; margin: auto; height: 600px; object-fit: fill;" uk-img></div>
+  <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 60%; margin: auto;">
+      <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
+      <div class="uk-card-media-left uk-cover-container">
+            <img src="<?= base_url('assets/images/FLORELLA.png') ?>" alt="Character Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;">
+            <canvas width="800" height="650"></canvas>
+          </div>
+      </div>
+      <div>
+        <div class="uk-card-body" style="padding: 20px; margin-top: 10px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h2 style="font-family: Open Sans; color:rgb(43, 44, 65); text-align: justify; font-size: 1rem; line-height: 1.5; overflow-y: auto; max-height: 100%; padding: 10px;">
+          Fiorella is a young and determined conservationist dedicated to restoring the natural balance of Elvar. Growing up surrounded by lush forests, she developed a deep connection with nature, but after years away for her studies, she returns to find her town in ruins due to deforestation, poaching, and pollution. Armed with her knowledge, courage, and a growing connection to the land’s fading magic.
+          </h2>
+        </div>
+      </div>
   </section>
 
+
+  
   <section>
-    <h1 class="zoom" style=" font-family: DynaPuff; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgba(0,0,0,0.432); font-size: 70px; font-weight: bold; max-width:80%; margin: auto;">Featured Products</h1>
+    
   </section>
 
   <?= $this->endSection('content') ?>
