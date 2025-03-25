@@ -1,4 +1,4 @@
-<body class="uk-background-cover" data-src="<?= base_url('assets/images/newBG.png')?>" style="object-fit: fill;" uk-img>
+<body class="uk-background-cover" data-src="<?= base_url('assets/images/newBGS.png')?>" style="object-fit: fill;" uk-img>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary" >
 

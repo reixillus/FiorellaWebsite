@@ -1,14 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(64, 255, 166);
+    background-color: rgb(142, 214, 127);
 }
 
 a{
     text-decoration: none;
 }
 .container-fluid{
-    background-color: rgba(0, 75, 24, 0.966);
+    background-color: rgba(70, 158, 98, 0.966);
 }
 
 .navbar{
@@ -21,7 +21,7 @@ a{
 }
 
 .nav-link{
-  color: rgb(128, 240, 174);
+  color: rgb(153, 241, 117);
   font-size: 20px;
 }
 
@@ -174,5 +174,4 @@ footer{
   .featured-box{
     margin-top: 20px;
   }
-
 }
