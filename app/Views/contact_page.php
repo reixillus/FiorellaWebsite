@@ -2,7 +2,7 @@
 
 <?= $this->extend('layout/main_layout') ?>
 <?= $this->section('title') ?>
-<title>Contact</title>
+<title>AboutUs</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
 
@@ -10,7 +10,7 @@
 
   <section>
     <div class="uk-background-cover d-flex flex-column justify-content-center align-items-center" data-src="<?= base_url('assets/images/amazingphone.png')?>" style="height: 300px; object-fit: fill;" uk-img>
-      <h1 style="font-family: DynaPuff; font-size: 100px; font-weight: bold; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">Contact Us</h1>
+      <h1 style="font-family: DynaPuff; font-size: 100px; font-weight: bold; color:rgb(43, 44, 65); text-shadow: 2px 2px rgba(0, 0, 0, 0.432);">About Us</h1>
     </div>
 
     <div style="max-width: 60%; margin: auto;">
