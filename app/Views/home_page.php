@@ -18,16 +18,19 @@ use CodeIgniter\Database\BaseUtils;
       </a>
     </div>
 
-    <h1 style="font-family: DynaPuff; text-align: center; color: rgb(43, 44, 65); font-weight: bold; margin-bottom: 20px;">TRAILER</h1>
+    <h1 style="font-family: DynaPuff; text-align: center; color: rgb(133, 218, 100); font-weight: bold; margin-bottom: 20px;">TRAILER</h1>
     <div data-aos="zoom-in" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2 uk-margin" uk-grid style="max-width: 60%; margin: auto;">
       <div class="uk-card-media-left uk-cover-container" style="padding: 50px;">
-        <img class="card-img" src="<?= base_url('assets/images/blueyfamily.png')?>" alt="Card image cap" style="height: 350px; object-fit: cover;">
-        <canvas width="600" height="1"></canvas>
+      <div class="uk-card-media-left uk-cover-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/-qkZy7ih4MY?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Bluey Video" allowfullscreen uk-responsive uk-video="automute: true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            <canvas width="800" height="650"></canvas>
+          </div>
       </div>
       <div>
-        <div class="uk-card-body" style="padding: 50px; margin-top: 10px;">
-          <h1 style="font-family: DynaPuff; color:rgb(43, 44, 65); font-weight: bold; text-align: center;">Welcome to Bluey Store!</h1>
-          <h2 style="font-family: Open Sans; color:rgb(43, 44, 65); text-align: justify; ">Bluey follows the adventures of a lovable & inexhaustible blue heeler puppy, who along with her sister Bingo, parents and friends is learning all about the world. Buy our legit merch!</h2>
+        <div class="uk-card-body" style="padding: 20px; margin-top: 10px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h2 style="font-family: Open Sans; color:rgb(43, 44, 65); text-align: justify; font-size: 1rem; line-height: 1.5; overflow-y: auto; max-height: 100%; padding: 10px;">
+            In the town of Elvar, where deforestation and poaching threaten nature, the flora and fauna are key to the story and gameplay of "Flora and Fauna." Tall Ironbark Trees give Fiorella strength and clues to save the land. Glowing Moonpetal Blooms light her path through dark woods. Animals like clever Emberfoxes and wise Sanctum Owls help her fight enemies and heal the environment. By teaming up with these plants and creatures, Fiorella uses Elvar’s fading magic to bring back its natural balance.
+          </h2>
         </div>
       </div>
     </div>
