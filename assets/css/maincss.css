@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 227, 254);
+}
+
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    background-color: rgb(43,44,65);
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.nav-link{
+  color: rgb(210,235,255);
+  font-size: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 100px;
+}
+
+.footer-text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.slideshow{
+  height: 500px;
+  object-fit: cover;
+}
+
+.container1{
+  max-width: 1440px;
+  padding: 30px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.featured-box{
+  border-radius: 10px;
+  background-color: rgb(237,204,111);
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 350px;
+  transition: 0.5s;
+}
+
+.featured-text{
+  color: rgb(47, 55, 78);
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.box-text{
+  color: rgb(53, 79, 82);
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.image{
+  width: 200px;
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.genbutton {
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.432);
+  background-color:  rgb(255,255,244);
+  color: rgb(34, 34, 34);
+  border-radius: 50px;
+  padding: 10px;
+  width: 150px;
+  display:block;
+}
+
+footer{
+  text-align: center;
+}
+
+.featured-box:hover {
+  color: rgb(202, 210, 197);
+  box-shadow: 0 5px 15px rgb(241,184,115);
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  text-align: left;
+  width: 20%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 1200px){
+  .container1{
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
+
+  .featured-box{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container1{
+    grid-template-columns: 1fr;
+    place-items: center;
+    max-width: 100%;
+  }
+
+  .featured-box{
+    margin-top: 20px;
+  }
+
+}
